@@ -1,0 +1,243 @@
+body {
+    /* font-family: 'Wix Madefor Display', sans-serif; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0px 0px 2px 50px;
+    color: black;
+    font-size: 18px;
+
+}
+#main{
+    color: orange;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: -50px;
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+h4 {
+    margin-left: 86%;
+    margin-top: -68px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+h4 img {
+    height: 42px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.homePage {
+    height: 700px;
+    position: relative;
+    margin-right: 120px;
+    margin-left: 150px;
+    background-image: url('./page.webp');
+}
+
+.homesubPage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#f {
+    font-size: 23px;
+    margin-bottom: -26px;
+}
+
+#s {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.my-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    /* font-family: 'Comfortaa', cursive; */
+}
+
+.my-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.homePage2 {
+    margin-left: 150px;
+    margin-right: 120px;
+    margin-top: 20px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homesubPage1 {
+    width: 38%;
+    height: 100%;
+    margin-top: 60px;
+    background-image: url('./subPage1.webp');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homesubPage2 {
+    width: 38%;
+    height: 100%;
+    margin-top: 60px;
+    background-image: url('./subPage2.webp');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p {
+    margin-top: -330px;
+    font-size: 23px;
+}
+
+.q {
+    font-size: 36px;
+    margin-top: -10px;
+}
+
+.homePage3 {
+    /* border: 2px solid black; */
+    margin-top: 70px;
+    height: 500px;
+    position: relative;
+    background-image: url('./subPage3.webp');
+}
+
+.homesubPage3 {
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 1400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#col1 {
+    height: 70%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#col1 p a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 14px;
+}
+#col1 h2{
+    margin-top: -18px;
+    margin-bottom: 20px;
+}
+
+#col2 {
+    height: 70%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#col2 h2{
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+#col2 p{
+    padding: 0px 0px 0px 74px;
+}
+
+#col3 {
+    height: 70%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#col3 h2{
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+#col4 {
+    height: 70%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#col4 h2{
+    margin-top: -23px;
+    margin-bottom: 20px;
+}
+#col4 input{
+    border: 1px solid black;
+    height: 8%;
+    width: 72%;
+    margin-left: 45px;
+    background-color: lightgray;
+}
+#col4 button{
+    margin-top: 14px;
+    transition: background-color 0.3s ease;
+    background-color: lightcyan;
+    border: 1px solid black;
+    height: 10%;
+    width: 74%;
+    margin-left: 45px;
+    cursor: pointer;
+}
+#col4 button:hover{
+    background-color: cyan;
+}

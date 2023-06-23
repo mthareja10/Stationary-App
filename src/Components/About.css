@@ -1,0 +1,70 @@
+.aboutPage{
+    background-image: url('./page2.webp');
+    height: 600px;
+    position: relative;
+    margin-left: 150px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: center;
+}
+.aboutsubPage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 400px;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+}
+.aboutsubPage p{
+    margin-bottom: -25px;
+}
+.aboutsubPage h2{
+    font-size: 40px;
+}
+.aboutPage2{
+    margin-left: 150px;
+    margin-right: 120px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutPage2 p{  
+    height: 200px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+#col4 input{
+    background-color: lightgrey;
+}
+#col4 button{
+    background-color: lightcyan;
+}
+#col4 button:hover{
+    background-color: cyan;
+}
+.aboutPage3 {
+    border: 2px solid black;
+    margin-top: 70px;
+    height: 500px;
+    position: relative;
+    background-image: url('./subPage3.webp');
+}
+.aboutsubPage3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 1400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
